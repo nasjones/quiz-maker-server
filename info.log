@@ -1,0 +1,46 @@
+{"message":"'p' is required","level":"error"}
+{"message":"'p' is required","level":"error"}
+{"message":"'p' is required","level":"error"}
+{"message":"'p' is required","level":"error"}
+{"message":"'private' is required","level":"error"}
+{"message":"'private' is required","level":"error"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"quiz with id 2 created","level":"info"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"quiz with id 2 created","level":"info"}
+{"message":"quiz with id 3 created","level":"info"}
+{"message":"quizID is required","level":"error"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"question is required","level":"error"}
+{"message":"quiz with id 2 created","level":"info"}
+{"message":"quiz with id 3 created","level":"info"}
+{"message":"quiz with id 4 created","level":"info"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"quiz with id 2 created","level":"info"}
+{"message":"quiz with id 3 created","level":"info"}
+{"message":"quiz with id 4 created","level":"info"}
+{"message":"quiz with id 5 created","level":"info"}
+{"message":"quiz with id 6 created","level":"info"}
+{"message":"quiz with id 7 created","level":"info"}
+{"message":"quizID is required","level":"error"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"quizID is required","level":"error"}
+{"message":"quiz with id 2 created","level":"info"}
+{"message":"quiz_id is required","level":"error"}
+{"message":"quiz with id 3 created","level":"info"}
+{"message":"question with id 1 created","level":"info"}
+{"message":"quiz with key 2 does not exist","level":"error"}
+{"message":"question with quiz_id 1dfaf1b3-1b00-4619-863c-04b417742a23 not found.","level":"error"}
+{"message":"quiz with key 1dfaf1b3-1b00-4619-863c-04b417742a23 does not exist","level":"error"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"question is required","level":"error"}
+{"message":"quiz with id 1 created","level":"info"}
+{"message":"question is required","level":"error"}
+{"message":"question is required","level":"error"}
+{"message":"question with quiz_id 3a817372-ca80-4e5d-9305-4fe0e5f7c8ed not found.","level":"error"}
+{"message":"quiz with id 2 created","level":"info"}
+{"message":"answers is required","level":"error"}
+{"message":"answers is required","level":"error"}
+{"message":"quiz with id 3 created","level":"info"}
+{"message":"question with id 1 created","level":"info"}
+{"message":"question with id 2 created","level":"info"}
