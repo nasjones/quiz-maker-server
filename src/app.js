@@ -8,6 +8,7 @@ const { NODE_ENV } = require('./config')
 const app = express()
 const QuizRouter = require('./quiz/quiz-router')
 const QuestionRouter = require('./questions/questions-router')
+const validate = require('./validate-bearer-token')
 
 const morganOption = (NODE_ENV === 'production')
     ? 'tiny'
@@ -15,6 +16,7 @@ const morganOption = (NODE_ENV === 'production')
 app.use(cors())
 app.use(morgan(morganOption))
 app.use(helmet())
+app.use(validate)
 app.use('/api/quiz', QuizRouter)
 app.use('/api/questions', QuestionRouter)
 

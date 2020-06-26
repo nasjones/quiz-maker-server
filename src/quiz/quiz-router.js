@@ -12,6 +12,7 @@ const serializeQuiz = quiz => ({
     unique_key: xss(quiz.unique_key),
     title: xss(quiz.title),
     description: xss(quiz.description),
+    category: xss(quiz.category),
     private: quiz.private
 })
 
@@ -24,14 +25,15 @@ quizRouter.route('/')
             .catch(next)
     })
     .post(bodyParser, (req, res, next) => {
-        const { title, description, private } = req.body
+        const { title, description, private, category } = req.body
         const newQuiz = {
             title,
             description,
-            private
+            private,
+            category
         }
 
-        for (const field of ['title', 'description']) {
+        for (const field of ['title', 'description', 'category']) {
             if (!newQuiz[field]) {
                 logger.error(`'${field}' is required`)
                 return res.status(400).send({
