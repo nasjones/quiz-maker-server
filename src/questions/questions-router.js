@@ -16,7 +16,7 @@ const serializeQuestion = question => ({
     correct: xss(question.correct)
 })
 
-arrayXSS = (arr) => {
+const arrayXSS = (arr) => {
     for (let i = 0; i < arr.length; i++)
         arr[i] = xss(arr[i])
     return arr
